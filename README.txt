@@ -1,4 +1,3 @@
-A Pen created at CodePen.io. You can find this one at http://codepen.io/ManarKamel/pen/ecypH.
+From a CodePen by ManarKamel -  http://codepen.io/ManarKamel/pen/ecypH.
 
- Scrollable dropdown like google app launcher
-by fuzionpro
+This fork for a blog entry on permissions/entitlements for in-house composite web apps.

@@ -54,7 +54,17 @@ $(document).ready(function(){
   
 });
 
+$(window).bind('hashchange', function() {
+	var hash = window.location.hash.replace(/^#/,'');
+	alert("app selected - " + hash + " - would open a browser tab into that app, if this were not an example");
+});
+
 // Resize event handler to maintain the max-height of the app launcher
 $(window).resize(function(){
 		$('.apps').css({maxHeight: $(window).height() - $('.apps').offset().top});
 });
+
+permittedTo = function(what) {
+	$('#' + what).attr("style", "");
+	$('#' + what +  ' a').attr("href", "#" + what);
+};

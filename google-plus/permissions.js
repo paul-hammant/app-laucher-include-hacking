@@ -1,0 +1,1 @@
+permittedTo("google-plus");
